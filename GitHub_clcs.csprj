@@ -1,0 +1,16 @@
+<codestructure version="5.11">
+<phptree>
+<treenode node="conn;PHP:Function Name;Codelobster1.php;f0;9;1;19;;;;vpos;;vmysqli;;r
+Definition
+    conn($dbName)
+
+Description
+     
+
+Parameters:
+    string $dbName;;d23,9;;b0,0;;mstring $dbName;;p">
+</treenode>
+<treenode node="myDatabase;PHP:Function Name;Codelobster1.php;f0;21;1;23;;;;vpos;;v;;r;;d22,21;;b0,0;;m">
+</treenode>
+</phptree>
+</codestructure>

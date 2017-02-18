@@ -8,9 +8,9 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
  * @throws mysqli_sql_exception
  */
 function conn($dbName) {
-    /*static */$conns = [];
+    static $conns = [];
  
-    if(!isset($conns[$dbName])) {
+    if (!isset($conns[$dbName])) {
         extract(require $dbName .'.php');
         $conns[$dbName] = new mysqli($host, $user_name, $password, $dbName);
         $conns[$dbName]->set_charset($charset);
@@ -30,7 +30,7 @@ try {
 }
 
 echo '<pre>'; var_dump($conn); echo '</pre>';
-
+exit(json_encode(['login' => 'Invalid characters']));
 
 
 

@@ -1,0 +1,33 @@
+cd d:/OpenServer/domains/GitHub/
+
+1 шаг: открываем терминал и устанавливаем первоначальные конфигурации
+
+git config --global user.name 'JIOT'
+git config --global user.email 'drzoom@mail.ru'
+git config --global color.diff 'auto'
+git config --global color.status 'auto'
+git config --global color.branch 'auto'
+git config --global credential.helper store
+git config --global push.default simple
+git config --global core.autocrlf false
+git config --global core.eol lf
+
+2 шаг: клонируем репозиторий
+
+mkdir C:/develop/ #cоздаем папку на диске C (если Windows)
+git clone https://github.com/JIOT/solid-system # копируем свой репозиторий на компьютер
+cd titlerepository/ #заходим в локальный репозиторий
+
+3 шаг: обновляем изменения на гитхабе
+
+# производим изменения
+# git отслеживает только изменения в файлах
+# (создание, удаление, редактирование)
+# git не видит созданную пустые директории
+# чтобы директории были сохранены на сервере
+# в пустых директориях необходимо присутствие
+# новых, созданных или перемещенных в них файлов
+
+git add . #производится индексирование файлов на предмет изменения в них
+git commit -m "update" #фиксируем публикацию, комментируем изменения
+git push -f #отправляем на сервер GitHub

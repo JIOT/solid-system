@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="D:\OpenServer\domains\GitHub\GitHub.clpprj">
+	<settings><PM_URL><![CDATA[http://GitHub/]]></PM_URL><PM_HOME_URL><![CDATA[http://GitHub/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="D:\OpenServer\domains\GitHub\index.php"/>
+		<file name="D:\OpenServer\domains\GitHub\john620.php"/>
+		<file name="D:\OpenServer\domains\GitHub\GitConfig.txt"/>
+	</lastopfiles>
+	<errors version="5.11">
+	</errors>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="D:\OpenServer\domains\GitHub\john620.php" crc="1487363079"/>
+		<file name="D:\OpenServer\domains\GitHub\index.php" crc="1487364067"/>
+		<file name="D:\OpenServer\domains\GitHub\GitConfig.txt" crc="1487367867"/>
+	</filescache>
+</project>
